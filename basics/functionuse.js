@@ -15,3 +15,13 @@ function giveu(arrayhere){
 }
 let reference = giveu(myArray)
 console.log(reference)
+
+const UserInfo={
+    name:"utkarsh",
+    age:18,
+    price:299,
+}
+function defineprice(objectuser){
+    return `${objectuser.name} added and item worth ${objectuser.price} in the cart`;
+}
+console.log(defineprice(UserInfo))

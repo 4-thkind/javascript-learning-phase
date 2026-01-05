@@ -14,7 +14,7 @@ console.log(obj)*/
 const thisobj={
     username:"utkarsh",
     welcomemessage: function(){
-      console.log(`${thisobj.username}, welcome to vs code`)
+      console.log(`${this.username}, welcome to vs code`)
     },
 }
 

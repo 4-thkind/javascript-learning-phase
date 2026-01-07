@@ -11,11 +11,27 @@ obj.greetings=function hello(){
 console.log(obj)*/
 
 
-const thisobj={
+/*const thisobj={
     username:"utkarsh",
     welcomemessage: function(){
       console.log(`${this.username}, welcome to vs code`)
     },
 }
 
-thisobj.welcomemessage()
+thisobj.welcomemessage()*/
+
+const myobj={
+    name:"utkarsh",
+    age:18,
+    occupation:"student",
+    "fav game":"spiderman",
+}
+
+//console.log(myobj);
+for (const [key] of myobj) {
+    console.log([key]);
+    
+}
+/*for (const key in myobj) {
+    console.log(key);
+}*/

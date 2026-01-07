@@ -28,10 +28,14 @@ const myobj={
 }
 
 //console.log(myobj);
-for (const [key] of myobj) {
-    console.log([key]);
+
+for (const key in myobj) {
+    console.log(myobj[key]);
+}
+
+const myarr=[1,2,3,4,5];
+
+for (const key of myarr) {
+    console.log(key);
     
 }
-/*for (const key in myobj) {
-    console.log(key);
-}*/

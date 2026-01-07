@@ -30,12 +30,12 @@ const myobj={
 //console.log(myobj);
 
 for (const key in myobj) {
-    console.log(myobj[key]);
+    console.log(key);
 }
 
-const myarr=[1,2,3,4,5];
+/*const myarr=[1,2,3,4,5];
 
 for (const key of myarr) {
     console.log(key);
     
-}
+}*/

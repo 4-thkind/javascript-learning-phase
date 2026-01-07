@@ -6,7 +6,7 @@ map.set("c",3);
 
 console.log(map);
 
-for(const [key,value] of map) {
-    console.log([key,value]);
+for(const [key] of map) {
+    console.log([key]);
     
 }

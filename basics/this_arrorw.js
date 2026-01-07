@@ -18,3 +18,9 @@ two();
 (()=>{
     console.log("hello world from arrow fuction")
 })()
+
+const arr=[1,2,3,4,5,67];
+
+arr.forEach(function (item){
+    console.log(item);
+});

@@ -21,6 +21,6 @@ two();
 
 const arr=[1,2,3,4,5,67];
 
-arr.forEach(function (item){
-    console.log(item);
+arr.forEach(function (item,value,arr){
+    console.log(item,value,arr);
 });

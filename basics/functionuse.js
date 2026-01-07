@@ -36,3 +36,8 @@ const addtwo = function hello(num){
     return num+1
 }
 console.log(addtwo(5))
+const a=5
+const b=5;
+((a,b)=>{
+console.log(a+b)
+})(a,b);

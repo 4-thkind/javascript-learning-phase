@@ -1,4 +1,4 @@
-/*const obj = {
+const obj = {
     name:"Utkarsh",
     age : 18,
 
@@ -8,17 +8,17 @@ obj.greetings=function hello(){
     console.log(`hello user ${this.name}`);
     
 }
-console.log(obj)*/
+console.log(obj)
 
 
-/*const thisobj={
+const thisobj={
     username:"utkarsh",
     welcomemessage: function(){
       console.log(`${this.username}, welcome to vs code`)
     },
 }
 
-thisobj.welcomemessage()*/
+thisobj.welcomemessage()
 
 const myobj={
     name:"utkarsh",
@@ -33,12 +33,12 @@ for (const key in myobj) {
   //  console.log(key);
 }
 
-/*const myarr=[1,2,3,4,5];
+const myarr=[1,2,3,4,5];
 
 for (const key of myarr) {
     console.log(key);
     
-}*/
+}
 
 const arrayy = [
     {
@@ -55,6 +55,6 @@ const arrayy = [
     }
 ]
 arrayy.forEach((item,value)=>{
-    console.log(item.);
+    console.log(item.short);
     console.log(value)
 })

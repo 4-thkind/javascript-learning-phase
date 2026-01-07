@@ -30,7 +30,7 @@ const myobj={
 //console.log(myobj);
 
 for (const key in myobj) {
-    console.log(key);
+  //  console.log(key);
 }
 
 /*const myarr=[1,2,3,4,5];
@@ -39,3 +39,22 @@ for (const key of myarr) {
     console.log(key);
     
 }*/
+
+const arrayy = [
+    {
+        language: "javascript", 
+        short:"js"
+    },
+     {
+        language: "java", 
+        short:"java"
+    },
+     {
+        language: "python", 
+        short:"py"
+    }
+]
+arrayy.forEach((item,value)=>{
+    console.log(item.);
+    console.log(value)
+})

@@ -7,4 +7,7 @@ var a =0
 var b=1
 
 let x 
-console.log(a<b?15:10)
+console.log(a<b?67:69)
+
+console.log("moving from javascript to numpy after creating some projects")
+

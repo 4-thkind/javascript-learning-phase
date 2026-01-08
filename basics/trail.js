@@ -1,1 +1,1 @@
-console.log("trialrun")
+console.table(["hello","world","i","am","4.thkind"])

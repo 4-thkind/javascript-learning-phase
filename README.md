@@ -1,2 +1,2 @@
 # javascript-learning-phase
-normal repo to learn js
+Repo containing my js initialising projects

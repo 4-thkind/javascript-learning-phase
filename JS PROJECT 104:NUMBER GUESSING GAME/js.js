@@ -14,7 +14,7 @@ let numGuess = 1;
 
 let playGame = true;
 
-if (playGame) {
+if (playGame){
   submit.addEventListener('click', function (e) {
     e.preventDefault();
     const guess = parseInt(userInput.value);
@@ -23,7 +23,7 @@ if (playGame) {
   });
 }
 
-function validateGuess(guess) {
+function validateGuess(guess){
   if (isNaN(guess)) {
     alert('PLease enter a valid number');
   } else if (guess < 1) {
@@ -43,8 +43,8 @@ function validateGuess(guess) {
   }
 }
 
-function checkGuess(guess) {
-  if (guess === randomNumber) {
+function checkGuess(guess){
+  if (guess === randomNumber){
     displayMessage(`You guessed it right`);
     endGame();
   } else if (guess < randomNumber) {
@@ -54,18 +54,18 @@ function checkGuess(guess) {
   }
 }
 
-function displayGuess(guess) {
+function displayGuess(guess){
   userInput.value = '';
   guessSlot.innerHTML += `${guess}, `;
   numGuess++;
   remaining.innerHTML = `${11 - numGuess} `;
 }
 
-function displayMessage(message) {
+function displayMessage(message){
   lowOrHi.innerHTML = `<h2>${message}</h2>`;
 }
 
-function endGame() {
+function endGame(){
   userInput.value = '';
   userInput.setAttribute('disabled', '');
   p.classList.add('button');
@@ -75,7 +75,7 @@ function endGame() {
   newGame();
 }
 
-function newGame() {
+function newGame(){
   const newGameButton = document.querySelector('#newGame');
   newGameButton.addEventListener('click', function (e) {
     randomNumber = parseInt(Math.random() * 100 + 1);

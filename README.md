@@ -5,6 +5,7 @@
   <li>BMI Calculator</li>
   <li>Your Local Time Shower</li>
   <li>GUESS THE NUMBER GAME</li>
+  <li>CLICK TO REMOVE PICTURE</li>
   .<br>
   .<br>
   .<br>

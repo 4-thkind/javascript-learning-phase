@@ -1,4 +1,3 @@
-
 let hexNumb=function(){
     let hex="0123456789ABCDEF"
     let color="#"

@@ -7,6 +7,7 @@
   <li>GUESS THE NUMBER GAME</li>
   <li>CLICK TO REMOVE PICTURE</li>
   <li>RGB WEBSITE</li>
+  <li>MYTHICAL CURSOR</li>
   .<br>
   .<br>
   .<br>

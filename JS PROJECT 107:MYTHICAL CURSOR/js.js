@@ -7,13 +7,12 @@ let hexNumb=function(){
         color+=hex[Math.floor(Math.random()*16)]
     }
     return color;
-
 }
-document.addEventListener('mousemove', function (e) {
+document.addEventListener('mousemove', function (e){
   moveCursor(e.pageX, e.pageY);
 });
 
-const moveCursor = function (pageX, pageY) {
+const moveCursor = function (pageX, pageY){
   cursor.style.left = pageX + 'px';
   cursor.style.top = pageY + 'px';
 

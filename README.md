@@ -8,6 +8,7 @@
   <li>CLICK TO REMOVE PICTURE</li>
   <li>RGB WEBSITE</li>
   <li>MYTHICAL CURSOR</li>
+  <li>EMOJI SWITCHER</li>
   .<br>
   .<br>
   .<br>

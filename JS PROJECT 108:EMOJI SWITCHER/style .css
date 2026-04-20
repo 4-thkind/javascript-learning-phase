@@ -1,4 +1,4 @@
-body {
+body{
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@ body {
   background: #ccc;
 }
 
-#emoji {
+#emoji{
   font-size: 13rem;
   filter: grayscale(1);
   transition-property: transfrom, filter;
@@ -15,7 +15,7 @@ body {
   cursor: pointer;
 }
 
-#emoji:hover {
+#emoji:hover{
   transform: scale(2);
   filter: grayscale(0);
 }

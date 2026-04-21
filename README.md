@@ -9,8 +9,7 @@
   <li>RGB WEBSITE</li>
   <li>MYTHICAL CURSOR</li>
   <li>EMOJI SWITCHER</li>
-  .<br>
-  .<br>
-  .<br>
 </ol>
+
+<p>idts it only this much........</p>
 
